@@ -80,6 +80,8 @@ NPM запускает некоторые *предопределенные* с�
 
 ## Babel
 
-[online REPL](https://babeljs.io/repl)
-[О babel на hexlet'e](https://ru.hexlet.io/courses/js-setup-environment/lessons/babel/theory_unit)
-[О транспайлинге и source map или маппинге на hexlet'e](https://ru.hexlet.io/courses/js-setup-environment/lessons/source-map/theory_unit)
+[online REPL](https://babeljs.io/repl)  
+
+[О babel на hexlet'e](https://ru.hexlet.io/courses/js-setup-environment/lessons/babel/theory_unit)  
+
+[О транспайлинге и source map или маппинге на hexlet'e](https://ru.hexlet.io/courses/js-setup-environment/lessons/source-map/theory_unit)  
