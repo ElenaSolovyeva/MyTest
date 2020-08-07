@@ -72,8 +72,14 @@
 
 Некоторые свойства в ```scripts``` имеют особое значение, например:  
 ```publish, test, stop, start, restart```
-- для их запуска достаточно команды *run*, например ```npm test```.
+- для их запуска достаточно команды **без** *run*, например ```npm test```.
 
-## Hooks
+### Hooks
 NPM запускает некоторые *предопределенные* свойства scripts автоматически.
 [Подробнее](https://docs.npmjs.com/misc/scripts)
+
+## Babel
+
+[online REPL](https://babeljs.io/repl)
+[О babel на hexlet'e](https://ru.hexlet.io/courses/js-setup-environment/lessons/babel/theory_unit)
+[О транспайлинге и source map или маппинге на hexlet'e](https://ru.hexlet.io/courses/js-setup-environment/lessons/source-map/theory_unit)
