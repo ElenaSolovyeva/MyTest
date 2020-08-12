@@ -3,7 +3,7 @@
 Достаточно написать ровно одну проверку, которая покрывает основной сценарий.
 Дальше нужно смотреть на "пограничные случаи":
  - Работа с пустой строкой;
-  - Обработка null;
+  - Обработка ```null```;
   - Деление на ноль (в большинстве языков вызывает ошибку)
  - Специфические ситуации для конкретных алгоритмов.
 
@@ -18,12 +18,12 @@ assert(util() === {});
 ```
 
 ### Специализированные утверждения, заточенные под конкретные ситуации:
-- assert.strictEqual(actual, expected)
+- ```assert.strictEqual(actual, expected)```
   подходит при сравнении двух значений; проверяет равенство ПО ССЫЛКЕ
-  assert.strictEqual(capitalize('hello'), 'Hello');
+  ```assert.strictEqual(capitalize('hello'), 'Hello');```
 
-- assert.deepStrictEqual(actual, expected) - для сравнения ПО ЗНАЧЕНИЮ
-  assert.deepStrictEqual({ key: 'value' }, { key: 'value' });
+- ```assert.deepStrictEqual(actual, expected)``` - для сравнения ПО ЗНАЧЕНИЮ
+  ```assert.deepStrictEqual({ key: 'value' }, { key: 'value' });```
 
 ## Библиотека power-assert
 ```
