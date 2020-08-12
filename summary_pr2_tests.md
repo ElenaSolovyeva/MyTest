@@ -40,7 +40,8 @@ assert(util() === {});
 ```
 
 ## framework JEST
-[Настройка и запуск](https://ru.hexlet.io/courses/js-testing/lessons/jest/theory_unit)
+[Настройка и запуск](https://ru.hexlet.io/courses/js-testing/lessons/jest/theory_unit)  
+
 Для тестов Jest предоставляет две глобальные функции: ```test``` и ```expect```.   
 Они доступны без какого-либо импорта.
 
